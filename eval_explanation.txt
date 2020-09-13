@@ -1,0 +1,31 @@
+
+*Here the game board is treated as a 6x7 matrix.
+
+*The evaluation function calucaltes score at each of the location.
+
+*Here at certain positions all the blocks are evaluated and score is calucalted.
+
+       *If the row location is >=3 then the top side blocks and the
+        number of adjacent empty blocks are checked. Acoording to this and number
+        of moves available the score is calucalted.
+
+        *If the column location is >=3 then the left side adjacent blocks and the
+        number of adjacent empty blocks are checked. Acoording to this and number
+        of moves available the score is calucalted.
+
+       *If the column location is <=3 then the right side adjacent blocks and the
+        number of adjacent empty blocks are checked. According to this and number
+        of moves availble the score is calucalted.
+
+
+       *If the column location is <=3 and row location is >=3 then the right diagonal
+        adjacent blocks and empty blocks are checked. According to this and number of 
+        moves available the score is calucalted.
+ 
+       *If the column location is >=3 and row location is >=3 then the left diagonal
+        adjacent blocks and empty blocks are checked. According to this and number of 
+        moves available the score is calucalted.
+
+
+
+

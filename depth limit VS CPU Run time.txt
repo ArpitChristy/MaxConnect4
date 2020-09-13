@@ -1,0 +1,13 @@
+DEPTH CPU Runtime
+
+
+1 0.032sec
+2 0.056sec
+3 0.062sec
+4 0.153sec
+5 0.343sec
+6 0.315sec
+7 0.580sec
+8 0.557sec
+9 0.895sec
+10 1.237sec
